@@ -19,7 +19,7 @@ node
     }
     
     
-    stage('generating report')
+    /*stage('generating report')
     {
         
         sh  " ${mavenHome}/bin/mvn sonar:sonar " 
@@ -39,7 +39,7 @@ node
         
          sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@52.66.83.171:/opt/apache-tomcat-9.0.45/webapps/"
         }    
-    }
+    }*/
     
     stage('notification mail')
     {
