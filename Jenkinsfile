@@ -18,6 +18,7 @@ node
         sh  " ${mavenHome}/bin/mvn clean package " 
     }
     
+    //checking poll scm
     
     /*stage('generating report')
     {
